@@ -1,0 +1,34 @@
+{
+  "name": "forkyfy",
+  "version": "1.0.0",
+  "description": "Recepi application",
+  "default": "index.js",
+  "htmlTarget": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanfercaste/Forkify-App.git"
+  },
+  "author": "Juan fernando Cerrato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanfercaste/Forkify-App/issues"
+  },
+  "homepage": "https://github.com/juanfercaste/Forkify-App#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "@types/core-js": "^2.5.5",
+    "@types/regenerator-runtime": "^0.13.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.27.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
